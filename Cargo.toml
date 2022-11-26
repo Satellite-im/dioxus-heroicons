@@ -9,7 +9,7 @@ license = "Apache-2.0 OR MIT"
 edition = "2018"
 
 [dependencies]
-dioxus = { git = "https://github.com/DioxusLabs/dioxus", branch = "master", features = ["dioxus-html"] }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus", branch = "master"}
 dioxus-html = { git = "https://github.com/DioxusLabs/dioxus", branch = "master", optional = true  }
 
 [workspace]
