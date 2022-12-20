@@ -10,7 +10,7 @@ edition = "2018"
 
 [dependencies]
 dioxus = { git="https://github.com/DioxusLabs/dioxus" }
-dioxus-html = "0.2.1"
+dioxus-html = { git="https://github.com/DioxusLabs/dioxus" }
 
 [workspace]
 members = ["gen"]
