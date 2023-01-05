@@ -9,8 +9,8 @@ license = "Apache-2.0 OR MIT"
 edition = "2018"
 
 [dependencies]
-dioxus = { git="https://github.com/DioxusLabs/dioxus", rev = "22e71a71bdcdc03c3ae83ae1c3b3fb5417ebaa80"}
-dioxus-html = { git="https://github.com/DioxusLabs/dioxus", rev = "22e71a71bdcdc03c3ae83ae1c3b3fb5417ebaa80" }
+dioxus = "0.3.1"
+dioxus-html = "0.3.0"
 
 [workspace]
 members = ["gen"]
